@@ -1,0 +1,12 @@
+[package]
+name = "tape"
+version = "0.1.0"
+authors = ["Jason Campbell <jasoncampbell@google.com>"]
+license = "ISC"
+
+[lib]
+name = "tape"
+path = "src/lib.rs"
+
+[dependencies]
+failure = "*"
